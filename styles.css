@@ -1,0 +1,21 @@
+.button{
+  display: flex-box;
+  text-align: center;
+}
+.holder{
+  width: 30vw !important;
+  height: 40vh;
+  overflow: hidden;
+}
+.show{
+  background-image: linear-gradient(to right, blue, purple);
+  color: white;
+}
+.blurred {
+  filter: blur(100px); /* Apply the blur effect */
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+.change{
+  height: 70vh;
+  overflow: auto;
+}
